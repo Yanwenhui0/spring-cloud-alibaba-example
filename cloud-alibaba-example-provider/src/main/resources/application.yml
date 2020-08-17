@@ -1,0 +1,20 @@
+server:
+  port: 8040
+  servlet:
+    context-path: /example-provider
+spring:
+  application:
+    name: example-provider
+  cloud:
+    nacos:
+      server-addr: 39.100.31.158:8848
+      username: nacos
+      password: nacos
+      discovery:
+        group: example
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

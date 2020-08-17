@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-alibaba-example-gateway" />
+        <module name="cloud-alibaba-example-consumer" />
+        <module name="cloud-alibaba-example-consumer-feign" />
+        <module name="cloud-alibaba-example-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-alibaba-example-consumer" target="1.8" />
+      <module name="cloud-alibaba-example-consumer-feign" target="1.8" />
+      <module name="cloud-alibaba-example-dependencies" target="1.8" />
+      <module name="cloud-alibaba-example-gateway" target="1.8" />
+      <module name="cloud-alibaba-example-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-alibaba-example-consumer" options="-parameters" />
+      <module name="cloud-alibaba-example-consumer-feign" options="-parameters" />
+      <module name="cloud-alibaba-example-gateway" options="-parameters" />
+      <module name="cloud-alibaba-example-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

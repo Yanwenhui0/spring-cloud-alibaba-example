@@ -1,0 +1,29 @@
+server:
+  port: 8055
+  servlet:
+    context-path: /example-consumer-feign
+spring:
+  application:
+    name: example-consumer-feign
+  cloud:
+    nacos:
+      server-addr: 39.100.31.158:8848
+      username: nacos
+      password: nacos
+      discovery:
+        group: example
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#feign:
+#  hystrix:
+#    enabled: true
+feign:
+  sentinel:
+    enabled: true
+
