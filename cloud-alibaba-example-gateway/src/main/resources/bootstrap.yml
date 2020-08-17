@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        # 这里的应用名对应 Nacos Config 中的 Data ID，实际应用名称以配置中心的配置为准
+        name: example-gateway-config
+        # 指定查找名为 example-consumer-config.yml 的配置文件
+        file-extension: yml
+        # 指定 example-consumer-config.yml 配置文件的分组
+        group: example
+        # Nacos Server 的地址
+        server-addr: 39.100.31.158:8848
+

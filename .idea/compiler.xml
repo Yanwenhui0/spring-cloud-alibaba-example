@@ -10,9 +10,11 @@
         <module name="cloud-alibaba-example-consumer" />
         <module name="cloud-alibaba-example-consumer-feign" />
         <module name="cloud-alibaba-example-provider" />
+        <module name="cloud-alibaba-example-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-alibaba-example-config" target="1.8" />
       <module name="cloud-alibaba-example-consumer" target="1.8" />
       <module name="cloud-alibaba-example-consumer-feign" target="1.8" />
       <module name="cloud-alibaba-example-dependencies" target="1.8" />
@@ -22,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-alibaba-example-config" options="-parameters" />
       <module name="cloud-alibaba-example-consumer" options="-parameters" />
       <module name="cloud-alibaba-example-consumer-feign" options="-parameters" />
       <module name="cloud-alibaba-example-gateway" options="-parameters" />
