@@ -12,7 +12,10 @@ spring:
       password: nacos
       discovery:
         group: example
-
+    sentinel:
+      transport:
+        port: 8720
+        dashboard: localhost:8080
 
 management:
   endpoints:

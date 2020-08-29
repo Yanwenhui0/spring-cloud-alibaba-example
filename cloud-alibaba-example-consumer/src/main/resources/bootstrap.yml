@@ -9,6 +9,6 @@ spring:
         # 指定 example-consumer-config.yml 配置文件的分组
         group: example
         # 指定命名空间ID
-        namespace: 4ac6402b-68c4-4e57-8d30-b4482bc63c6c
+        namespace: ae802165-6a27-49ac-883f-92cabc4ae6c8
         # Nacos Server 的地址
         server-addr: 39.100.31.158:8848

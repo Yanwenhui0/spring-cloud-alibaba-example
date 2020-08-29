@@ -8,11 +8,11 @@ spring:
       discovery:
         server-addr: 39.100.31.158:8848
         group: example
-    # 使用 Sentinel 作为熔断器
-#    sentinel:
-#      transport:
-#        port: 8721
-#        dashboard: localhost:8080
+    # 使用 Sentinel流量控制
+    sentinel:
+      transport:
+        port: 8720
+        dashboard: localhost:8080
     # 路由网关配置
     gateway:
       # 设置与服务注册发现组件结合，这样可以采用服务名的路由策略
