@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-alibaba-example-gateway" />
+        <module name="cloud-alibaba-example-config" />
         <module name="cloud-alibaba-example-consumer" />
         <module name="cloud-alibaba-example-consumer-feign" />
+        <module name="cloud-alibaba-example-gateway" />
         <module name="cloud-alibaba-example-provider" />
-        <module name="cloud-alibaba-example-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
