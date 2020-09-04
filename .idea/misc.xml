@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/cloud-alibaba-example-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-alibaba-example-geteway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-alibaba-example-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-example-rocketmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-alibaba-example-rocketmq-consumer/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-alibaba-example-config" />
-        <module name="cloud-alibaba-example-consumer" />
         <module name="cloud-alibaba-example-consumer-feign" />
         <module name="cloud-alibaba-example-gateway" />
+        <module name="cloud-alibaba-example-rocketmq-consumer" />
         <module name="cloud-alibaba-example-provider" />
+        <module name="cloud-alibaba-example-rocketmq-provider" />
+        <module name="cloud-alibaba-example-consumer" />
+        <module name="cloud-alibaba-example-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,8 @@
       <module name="cloud-alibaba-example-dependencies" target="1.8" />
       <module name="cloud-alibaba-example-gateway" target="1.8" />
       <module name="cloud-alibaba-example-provider" target="1.8" />
+      <module name="cloud-alibaba-example-rocketmq-consumer" target="1.8" />
+      <module name="cloud-alibaba-example-rocketmq-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +33,8 @@
       <module name="cloud-alibaba-example-consumer-feign" options="-parameters" />
       <module name="cloud-alibaba-example-gateway" options="-parameters" />
       <module name="cloud-alibaba-example-provider" options="-parameters" />
+      <module name="cloud-alibaba-example-rocketmq-consumer" options="-parameters" />
+      <module name="cloud-alibaba-example-rocketmq-provider" options="-parameters" />
     </option>
   </component>
 </project>
