@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-gateway/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-example-kafka-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-example-kafka-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-example-provider/src/main/resources" charset="UTF-8" />

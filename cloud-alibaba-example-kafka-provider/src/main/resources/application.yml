@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: example-kafka-provider
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 39.100.31.158:9092
+          auto-add-partitions: true
+          auto-create-topics: true
+          min-partition-count: 1
+      bindings:
+        output:
+          destination: mytopic
+          content-type: text/plain
+          producer.partitionCount: 1
+
+server:
+  port: 9093
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

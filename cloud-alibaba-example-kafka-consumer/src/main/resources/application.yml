@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: example-kafka-consumer
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 39.100.31.158:9092
+          auto-add-partitions: true
+          auto-create-topics: true
+      bindings:
+        input:
+          destination: mytopic
+          group: s1
+
+
+
+server:
+  port: 9094
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

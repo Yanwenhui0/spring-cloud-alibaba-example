@@ -1,6 +1,6 @@
 spring:
   application:
-    name: rocketmq-provider
+    name: example-rocketmq-provider
   cloud:
     stream:
       rocketmq:
