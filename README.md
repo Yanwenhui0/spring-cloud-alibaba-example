@@ -4,15 +4,15 @@
 
 ## Modules
 
-- cloud-alibaba-example-dependencies : 
-- cloud-alibaba-example-provider : 
-- cloud-alibaba-example-consumer : 
-- cloud-alibaba-example-consumer-feign : 
-- cloud-alibaba-example-gateway : 
-- cloud-alibaba-example-kafka-provider : 
-- cloud-alibaba-example-kafka-consumer : 
-- cloud-alibaba-example-rocketmq-provider : 
-- cloud-alibaba-example-rocketmq-consumer : 
+- cloud-alibaba-example-dependencies : 项目统一依赖
+- cloud-alibaba-example-provider : 服务提供者
+- cloud-alibaba-example-consumer : 服务消费者
+- cloud-alibaba-example-consumer-feign : 服务消费者-feign
+- cloud-alibaba-example-gateway : 统一网关
+- cloud-alibaba-example-kafka-provider : kafka-服务提供者
+- cloud-alibaba-example-kafka-consumer : kafka-服务消费者
+- cloud-alibaba-example-rocketmq-provider : rocketmq-服务提供者
+- cloud-alibaba-example-rocketmq-consumer : rocketmq-服务消费者
 
 ## Error pooling
 
