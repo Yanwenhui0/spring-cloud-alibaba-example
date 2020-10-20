@@ -25,6 +25,8 @@ Caused by: java.lang.AbstractMethodError: com.alibaba.cloud.sentinel.feign.Senti
 
 原因：
 spring cloud H R1 版本中的 feign 版本：2.2.0
+
+
 sentinel 2.2.1 版本中的 feign 版本：2.2.2
 
 在 feign 2.2.0 的 Contract 接口中有一处拼写错误：
@@ -71,3 +73,6 @@ Correct the classpath of your application so that it contains a single, compatib
 解决方法：
 
     将 spring cloud 版本降到 H R6 以下
+
+
+[版本对应关系推荐：https://github.com/alibaba/spring-cloud-alibaba/wiki/版本说明](https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E)
