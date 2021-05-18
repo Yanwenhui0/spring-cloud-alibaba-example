@@ -7,7 +7,6 @@ import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.cloud.stream.messaging.Source;
 
 @SpringBootApplication
-@EnableBinding({Sink.class})
 public class CloudAlibabaExampleKafkaConsumerApplication {
 
     public static void main(String[] args) {

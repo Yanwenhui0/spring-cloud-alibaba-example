@@ -5,8 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.messaging.Source;
 
+/**
+ * @author yanwenhui
+ */
 @SpringBootApplication
-@EnableBinding({Source.class})
 public class CloudAlibabaExampleKafkaProviderApplication {
 
     public static void main(String[] args) {

@@ -7,13 +7,14 @@ spring:
         binder:
           brokers: 39.100.31.158:9092
           auto-add-partitions: true
-          auto-create-topics: true
-          min-partition-count: 1
+          auto-create-topics: true      # 自动创建 topic
+          min-partition-count: 1        # 最小分区数量
       bindings:
+        # 这里用stream给我们提供的默认output，后面会讲到自定义output
         output:
-          destination: mytopic
-          content-type: text/plain
-          producer.partitionCount: 1
+          destination: mytopic             # 消息发往的目的地
+          content-type: text/plain         # 消息发送的格式，接收端不用指定格式，但是发送端要
+          producer.partitionCount: 1       # Key和分区数量进行取模去分配消息，这里分区数量配置为2
 
 server:
   port: 9093

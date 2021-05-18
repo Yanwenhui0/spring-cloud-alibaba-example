@@ -11,6 +11,7 @@ spring:
       bindings:
         input:
           destination: mytopic
+          # 分组，同一 group 下的实例只有一个会去消费消息，避免了多实例重复消费
           group: s1
 
 
